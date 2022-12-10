@@ -61,7 +61,7 @@ mode = args.mode
 platform = args.platform
 
 if not exists(source_payload):
-   message = 'Could not find the source file: "{file}"!'.format(file=args.SOURCE)
+   message = 'Could not find the source file: "{file}"!'.format(file=source_payload)
    print_message(message, "ERROR")
    exit()
 
